@@ -39,14 +39,21 @@ const About = () => {
               <div className="about-wrapper__info">
                 <p className="about-wrapper__info-text">
                   {paragraphOne ||
-                    'Lorem ipsum dolor sit, amet consectetur adipisicing elit. Excepturi neque, ipsa animi maiores repellendu distinctioaperiam earum dolor voluptatum consequatur blanditiis inventore debitis fuga numquam voluptate architecto itaque molestiae.'}
+                    'Graduated from University of California, Irvine with BA in Business Economics in 2017. I went on to to work at Goldman Sachs as an operations analyst. My specific role was portfolio reconciliation and valuations analyst.'}
                 </p>
                 <p className="about-wrapper__info-text">
                   {paragraphTwo ||
-                    'Lorem ipsum dolor sit, amet consectetur adipisicing elit. Excepturi neque, ipsa animi maiores repellendu distinctioaperiam earum dolor voluptatum consequatur blanditiis inventore debitis fuga numquam voluptate architecto itaque molestiae.'}
+                    'I left Goldman to work on a startup that was called UnMapped. The idea behind the startup was to connect locals with tourists based off of common interests to provide them with authentic experiences. At the same time I was pursuin my MS in Apllied Economics from Johns Hopkins University'}
                 </p>
                 <p className="about-wrapper__info-text">
-                  {paragraphThree || 'Lorem ipsum dolor sit, amet consectetur adipisicing elit.'}
+                  {paragraphThree ||
+                    'Around 7 months into the startup we decided to call it quits and this is also when I decided and realized that along with my love for research and data I am also extremely interested in programming. I found a Lambda School (nine month full stack web development boot camp) which I enrolled in. As of now I have completed both my masters in applied economics and completed Lambda School.\n Outside of work and school I enjoy trying new food,I have an excel sheet with restaurants all across the globe. I am also really into basketball (clippers fan). '}
+                </p>
+                <p className="about-wrapper__info-text">
+                  I enjoy learning, being challenged, and stepping out of my comfort zone. As long
+                  as the role involves tough problems it will likely be role I would be interested
+                  in. I am also a big fan of data and believe some of the greatest solutions can be
+                  found at the intersection of programming and data.
                 </p>
                 {resume && (
                   <span className="d-flex mt-3">
@@ -54,7 +61,7 @@ const About = () => {
                       target="_blank"
                       rel="noopener noreferrer"
                       className="cta-btn cta-btn--resume"
-                      href={resume}
+                      href="https://drive.google.com/file/d/1wMsolcNbSlXbeN7ozHSsPfTQEyL9i4By/view?usp=sharing"
                     >
                       Resume
                     </a>

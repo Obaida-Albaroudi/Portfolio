@@ -31,7 +31,7 @@ export const projectsData = [
     img: 'RecipeShare.png',
     title: 'Recipe Share',
     info:
-      "A recipe editor that allows users version control capabilities - they can create recipes and edit them. Then they can view all previous versions of that recipe.if you're cooking in a kitchen and you need to edit ingredients you need to have a seamless user experience so user flow for this kind of action would be better in Mobile.",
+      "A recipe editor that allows users version control capabilities - they can create recipes and edit them. Then they can view all previous versions of that recipe. If you're cooking in a kitchen and you need to edit ingredients you need to have a seamless user experience so user flow for this kind of action would be best in Mobile.",
     info2:
       '\n\nFrontend- React Native,\n\nBackend- Node, Express n\n Database: Postgresn\nDeployment: Heroku',
     url: 'https://www.youtube.com/watch?v=4C5nuCcU-_I',
@@ -42,7 +42,7 @@ export const projectsData = [
     img: 'SalaryEstimator.jpg',
     title: 'Salary Estimator',
     info:
-      'Created a web app that takes in an individuals major, region of work, and university along with loan amounts and the years they plan on paying it back. After a person calculates presses the calculate button they are provided with an estimate of their average salary for the first few years of work and depending on the loan amount how much they will need to give up on average per month and year',
+      'Created a web app that takes in an individuals major, region of work, and university along with their loan amounts and the amount of years they plan on paying it back. After a person presses the calculate button they are provided with an estimate of their average salary for their first few years of work. They will also be able to see the amount they will need to pay on average per month and year from their salary to cover their loan.',
     info2: 'Front End - ReactJS\n Back End - Python (Flask)',
     url: 'https://salary-estimating.herokuapp.com/',
     repo: 'https://github.com/cobidev/react-simplefolio', // if no repo, the button will not show up
@@ -52,7 +52,7 @@ export const projectsData = [
     img: 'MUD.png',
     title: 'Multi-User Dungeon',
     info:
-      'Built and deployed a functional MUD server. Created random rooms with unique descriptions and the ability to move to different rooms. Teh functionality was built out and could be played from the  backend. Created a simple front end to show off the funcitonality',
+      'Built and deployed a functional MUD server. Created random rooms with unique descriptions and the ability to move to different rooms. The functionality was built out and could be played from the  backend. Created a simple front end to show off the functionality',
     info2: 'Front End - ReactJS  \n Back End - Python (django)',
     url: 'https://team-oreo-mud.netlify.com/',
     repo: 'https://github.com/Team-Oreo-CS-Build-Week1', // if no repo, the button will not show up

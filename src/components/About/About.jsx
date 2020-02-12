@@ -57,6 +57,27 @@ const About = () => {
                   excel sheet with restaurants all across the globe. I also love basketball whether
                   it is playing or watching (Clippers fan).
                 </p>
+                <p>Technical Skills:</p>
+                <p style={{ display: 'flex', flexDirection: 'row' }}>
+                  <ul>
+                    <li>Python</li>
+                    <li>JavaScript</li>
+                    <li>ReactJS </li>
+                    <li>React Native</li>
+                  </ul>
+                  <ul>
+                    <li>Flask</li>
+                    <li>Django</li>
+                    <li>PostgreSQL</li>
+                    <li>NumPy</li>
+                  </ul>
+                  <ul>
+                    <li>Java</li>
+                    <li>HTML/CSS</li>
+                    <li>Supervised Learning</li>
+                    <li>Unsupervised Learning</li>
+                  </ul>
+                </p>
                 {resume && (
                   <span className="d-flex mt-3">
                     <a

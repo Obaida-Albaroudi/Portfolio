@@ -45,7 +45,7 @@ export const projectsData = [
       'Created a web app that takes in an individuals major, region of work, and university along with their loan amounts and the amount of years they plan on paying it back. After a person presses the calculate button they are provided with an estimate of their average salary for their first few years of work. They will also be able to see the amount they will need to pay on average per month and year from their salary to cover their loan.',
     info2: 'Front End - ReactJS\n Back End - Python (Flask)',
     url: 'https://salary-estimating.herokuapp.com/',
-    repo: 'https://github.com/cobidev/react-simplefolio', // if no repo, the button will not show up
+    repo: 'https://github.com/Obaida-Albaroudi/SalaryFe', // if no repo, the button will not show up
   },
   {
     id: uuidv1(),
